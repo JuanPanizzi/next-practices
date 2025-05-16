@@ -146,7 +146,7 @@ export async function fetchInvoicesPages(query: string) {
 }
 
 export async function fetchInvoiceById(id: string) {
-  console.log('hola se esta haciendo un ferchInvoiceById')
+  
   try {
     const data = await sql<InvoiceForm[]>`
       SELECT
